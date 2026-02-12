@@ -96,8 +96,8 @@
                     </div>
                     <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-red-500">
                         <p class="text-gray-500 text-sm font-bold uppercase">Em Atraso</p>
-                        <p class="text-4xl font-bold text-red-600">76</p>
-                        <p class="text-gray-400 text-sm mt-2">Casos totais</p>
+                        <p class="text-4xl font-bold text-red-600">75</p>
+                        <p class="text-gray-400 text-sm mt-2">pareceres realizados em atraso</p>
                     </div>
                 </div>
 
@@ -193,6 +193,18 @@
                 </div>
             </div>
             <div class="max-w-7xl mx-auto px-4 py-8">
+                <!-- Volumetria do Protocolo (ATUALIZADO) -->
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                     <div class="bg-sky-50 p-6 rounded-xl border border-sky-100 text-center">
+                        <p class="text-sky-800 text-sm font-bold uppercase mb-2">Protocolos realizados pelo Núcleo</p>
+                        <p class="text-4xl font-bold text-sky-900">269</p>
+                    </div>
+                    <div class="bg-indigo-50 p-6 rounded-xl border border-indigo-100 text-center">
+                        <p class="text-indigo-800 text-sm font-bold uppercase mb-2">Protocolos realizados via Trello</p>
+                        <p class="text-4xl font-bold text-indigo-900">928</p>
+                    </div>
+                </div>
+
                 <!-- Estatísticas Gerais -->
                 <div class="grid grid-cols-3 gap-4 mb-8">
                     <div class="bg-white p-4 rounded-lg shadow text-center">
@@ -666,6 +678,7 @@
                         <div class="space-y-4 text-sm">
                             <div>
                                 <p class="font-bold text-red-600">Emails de ausências: 13</p>
+                                <p class="text-red-500 font-semibold mt-1 bg-red-50 p-2 rounded"><i class="fa-solid fa-person-walking-arrow-right mr-1"></i> Saidas: houveram 2 saídas do escritório: KMS e KRC</p>
                             </div>
                             <div>
                                 <p class="font-bold">Recessos (6)</p>
@@ -757,6 +770,14 @@
                              <div class="flex justify-between border-t pt-2">
                                 <span>Pré Cadastros</span>
                                 <span class="font-bold">48</span>
+                            </div>
+                            <div class="flex justify-between border-t pt-2">
+                                <span>Diligências Realizadas</span>
+                                <span class="font-bold">3</span>
+                            </div>
+                            <div class="flex justify-between border-t pt-2">
+                                <span>Audiências Tratadas</span>
+                                <span class="font-bold">57</span>
                             </div>
                         </div>
                     </div>
@@ -920,12 +941,16 @@
                         <p class="text-2xl font-bold text-yellow-600">156</p>
                     </div>
                     <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 border-emerald-500 text-center">
-                        <p class="text-gray-500 text-xs font-bold uppercase">Fechados</p>
-                        <p class="text-2xl font-bold text-emerald-600">221</p>
+                        <p class="text-gray-500 text-xs font-bold uppercase">Formalizados Total</p>
+                        <p class="text-2xl font-bold text-emerald-600">162</p>
+                        <div class="flex justify-center gap-2 mt-1 text-xs text-gray-500 font-semibold">
+                            <span class="px-2 py-1 bg-green-50 rounded text-green-700">Pré: 17</span>
+                            <span class="px-2 py-1 bg-green-50 rounded text-green-700">Pós: 145</span>
+                        </div>
                     </div>
                     <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 border-red-500 text-center">
                         <p class="text-gray-500 text-xs font-bold uppercase">Negados</p>
-                        <p class="text-2xl font-bold text-red-600">244</p>
+                        <p class="text-2xl font-bold text-red-600">221</p>
                     </div>
                 </div>
 
@@ -1046,7 +1071,7 @@
                 </div>
             </div>
             <div class="max-w-7xl mx-auto px-4 py-8">
-                <div class="bg-white p-10 rounded-2xl shadow-lg text-center">
+                <div class="bg-white p-10 rounded-2xl shadow-lg text-center mb-8">
                     <div class="grid md:grid-cols-3 gap-10">
                         <div>
                             <span class="block text-4xl font-bold text-indigo-900">6.781</span>
@@ -1062,6 +1087,30 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Detalhamento por Cliente (NOVO) -->
+                <div class="grid md:grid-cols-4 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-xl shadow-sm text-center border-t-4 border-red-600">
+                        <p class="text-sm font-bold text-gray-500 uppercase">Bradesco</p>
+                        <p class="text-3xl font-bold text-red-900">124</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm text-center border-t-4 border-teal-500">
+                        <p class="text-sm font-bold text-gray-500 uppercase">Cetelem</p>
+                        <p class="text-3xl font-bold text-teal-900">99</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm text-center border-t-4 border-yellow-500">
+                        <p class="text-sm font-bold text-gray-500 uppercase">Mercado Livre</p>
+                        <p class="text-3xl font-bold text-yellow-900">696</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm text-center border-t-4 border-purple-600">
+                        <p class="text-sm font-bold text-gray-500 uppercase">Nubank</p>
+                        <p class="text-3xl font-bold text-purple-900">831</p>
+                    </div>
+                </div>
+
+                <div class="bg-indigo-50 border-l-4 border-indigo-500 p-4 rounded text-sm text-indigo-900">
+                    <p><strong>Justificativa:</strong> Mutirões realizados em Janeiro (Encerramento e Pagamento).</p>
+                </div>
             </div>
         </section>
 
@@ -1074,9 +1123,15 @@
                 </div>
             </div>
             <div class="max-w-7xl mx-auto px-4 py-8">
-                <div class="bg-white p-6 rounded-xl shadow mb-8 flex justify-between items-center">
-                    <h3 class="text-xl font-bold text-gray-800">Total Pagamentos Reprovados</h3>
-                    <span class="bg-red-100 text-red-800 px-4 py-2 rounded-lg font-bold text-xl">65</span>
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-white p-6 rounded-xl shadow flex justify-between items-center border-l-4 border-blue-500">
+                        <h3 class="text-xl font-bold text-gray-800">Total Pagamentos Recebidos</h3>
+                        <span class="text-blue-900 px-4 py-2 rounded-lg font-bold text-3xl">1.962</span>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow flex justify-between items-center border-l-4 border-red-500">
+                        <h3 class="text-xl font-bold text-gray-800">Total Pagamentos Reprovados</h3>
+                        <span class="bg-red-100 text-red-800 px-4 py-2 rounded-lg font-bold text-xl">65</span>
+                    </div>
                 </div>
 
                 <div class="space-y-8">
